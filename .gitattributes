@@ -1,0 +1,15 @@
+# Ignore native platform and build files for linguist language stats
+android/** linguist-vendored
+ios/** linguist-vendored
+macos/** linguist-vendored
+linux/** linguist-vendored
+windows/** linguist-vendored
+build/** linguist-generated
+
+*.cmake linguist-vendored
+CMakeLists.txt linguist-vendored
+*.h linguist-vendored
+*.cpp linguist-vendored
+*.c linguist-vendored
+*.swift linguist-vendored
+*.html linguist-vendored
